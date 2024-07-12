@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unidad 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cambiar color de fondo 
+    <body style = "background-color: blanchedalmond;">
+    -->    
+    <nav> 
+        <a href="#Bio">Imágenes</a>
+        <a href="#Enlaces">Enlaces</a>
+    </nav>
+    <main> 
+        <section id="Bio">
+            <h2> Imágenes </h2>
+            <p> 
+                Sitio web personal dedicado a la aprendizaje del desarrollo web </b> </p>
+            <!-- Importar una imagen desde la web -->            
+            <h3> Gestión de imágenes</h3> 
+            <h4> Importando desde la web </h4>
+            <p class="highlight">
+                TEXTO DE PRUEBA
+            </p>
+            <img src="https://media.istockphoto.com/id/950688808/es/foto/disfrutar-de-c%C3%B3cteles-en-la-piscina.jpg?s=1024x1024&w=is&k=20&c=UQIb0T8DlNxD4KHbE0hjvhx-lrlb0ZkTd5C3g9JqoBg=" alt="paseo">
+            <!-- Importar las imágenes desde la carpeta local -->
+            <h5> Importando de manera local </h4>
+            <img src="img/pexels-akos-szabo-145938-440731.jpg" alt="paisaje">
+            <h4> Imagen redimensionada </h4>
+            <img src="img/pexels-akos-szabo-145938-440731.jpg" width="1280" height="960" alt="paisaje">
+            <!-- Figura con caption-->
+            <h6> Figura con caption </h4>
+            <figure>
+                <img src="https://media.istockphoto.com/id/950688808/es/foto/disfrutar-de-c%C3%B3cteles-en-la-piscina.jpg?s=1024x1024&w=is&k=20&c=UQIb0T8DlNxD4KHbE0hjvhx-lrlb0ZkTd5C3g9JqoBg=" alt="paseo"> 
+                <figcaption> figcaption </figcaption>
+            </figure>
+            <video controls>
+                <source src="https://youtu.be/t0kYAjEIeaQ?si=io6aSA6ihsA4TnB4" > VSCode en español
+            </video>
+        </section>
 
+        <!-- enlaces -->
+         <section id="Enlaces">
+            <h2> Enlaces </h2>
+            <a href="www.google.com">Ir a Google</a>
+
+         </section>
+
+         <!-- Crear tablas -->
+         <section id="Tablas">
+            <h6>Creando tablas </h6>
+            <table>
+                <tr>
+                    <td> Cantidad </td>
+                    <td> Producto </td>
+                </tr>
+                <tr>
+                    <td> 1 </td>
+                    <td> Cuchillo </td>
+                </tr>
+
+            </table>
+         </section> 
+
+    </main>
+    <section id="Formulario">
+        <form action=""> <!form define el formulario -->
+            <label for="nombre"> Nombre:</label><br>
+            <input type= "text" id="nombre"><br>
+            <label for="email">Email:</label><br>
+            <input type= "email"><br>
+            <input type= "submit" value="Enviar mensaje"><br>
+            <label for="teléfono">Teléfono:</label><br>
+            <input type= "teléfono"><br>
+            <label for="Mensaje">Mensaje:</label><br>
+            <input type= "mensaje"><br>
+            <option value=""comercial">Comercial</option><br>
+        </form>
+    <footer> Todos los derechos reservados </footer>
+    <div id= "footer">
+        todos los derechos reservados
+    </div>
+</body>
+</html>
